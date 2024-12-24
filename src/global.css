@@ -30,3 +30,7 @@ body {
         transform: rotate(360deg);
     }
 }
+.logoSize {
+    width: 26x;
+    height: 26px;
+}

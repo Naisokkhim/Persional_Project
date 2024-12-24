@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import profileImage from "../assets/images/profile.png";
+import supaBase from "../assets/images/-zEL9B5-supabase-icon.svg";
+import laravel from "../assets/images/laravel.svg";
 import {
   FaGithub,
   FaFacebook,
@@ -11,6 +13,7 @@ import {
   FaJs,
   FaCss3,
   FaHtml5,
+  FaBootstrap,
 } from "react-icons/fa";
 
 export default function LandingPage() {
@@ -49,12 +52,14 @@ export default function LandingPage() {
         </Col>
       </Row>
       <Row className="w-100 align-items-start" style={{ marginLeft: "24rem" }}>
-        <Col className="d-flex gap-3">
+        <Col className="d-flex gap-4">
           <p className="fw-bolder  ">Tech Skill |</p>
           <FaReact color="#00FFFF" size={30} className="ms-2 moving onHover" />
-          <FaJs color="#FFD700" size={30} className="ms-2 onHover" />
-          <FaCss3 color="#4682B4" size={30} className="ms-2 onHover" />
-          <FaHtml5 color="#FF4500" size={30} className="ms-2 onHover" />
+          <FaJs color="#FFD700" size={30} className=" onHover" />
+        <FaBootstrap color="#7952B3" size={30} className=" onHover" />
+          <FaHtml5 color="#FF4500" size={30} className=" onHover" />
+          <img src={supaBase} alt="supaBase" className="onHover logoSize"/>
+          <img src={laravel} alt="laravel "className="onHover logoSize" />
         </Col>
       </Row>
     </Container>
