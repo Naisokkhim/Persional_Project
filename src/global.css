@@ -18,7 +18,6 @@ body {
     transform: scale(1.05) ;
 }
 .moving {
-    transition: transform 0.3s ease;
     animation: rotate360 20s linear infinite;
 }
 
@@ -31,6 +30,6 @@ body {
     }
 }
 .logoSize {
-    width: 26x;
+    width: 26px;
     height: 26px;
 }
