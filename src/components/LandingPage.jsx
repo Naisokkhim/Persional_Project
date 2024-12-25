@@ -51,7 +51,7 @@ export default function LandingPage() {
           />
         </Col>
       </Row>
-      <Row className="w-100 align-items-start" style={{ marginLeft: "24rem" }}>
+      <Row>
         <Col className="d-flex gap-4">
           <p className="fw-bolder  ">Tech Skill |</p>
           <FaReact color="#00FFFF" size={30} className="ms-2 moving onHover" />
