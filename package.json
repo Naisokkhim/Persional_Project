@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://naisokkhim.github.io/Persional_Project/",
+  "homepage": "https://naisokkhim.me/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
